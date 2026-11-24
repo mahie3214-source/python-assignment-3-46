@@ -1,0 +1,5 @@
+first = (1, 2, 3)
+second = (4, 5)
+print("Concatenation:", first + second)
+print("Repetition:", first * 2)
+print("Slicing:", first[1:])

@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+digits = sum(1 for ch in s if ch.isdigit())
+alphabets = sum(1 for ch in s if ch.isalpha())
+special = sum(1 for ch in s if not ch.isalnum() and not ch.isspace())
+print("Digits:", digits)
+print("Alphabets:", alphabets)
+print("Special characters:", special)
